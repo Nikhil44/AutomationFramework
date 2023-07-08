@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[SignIn Action is successfully perfomred]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-08T16:16:18 IST" name="Testing Demo Apps" finished-at="2023-07-08T16:16:38 IST" duration-ms="19827">
+    <groups>
+    </groups>
+    <test started-at="2023-07-08T16:16:18 IST" name="Regression" finished-at="2023-07-08T16:16:38 IST" duration-ms="19827">
+      <class name="automationFramework.AutomationFramework.Framework_001">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@4b0b0854]" started-at="2023-07-08T16:16:18 IST" name="beforeMethod" finished-at="2023-07-08T16:16:34 IST" duration-ms="15259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="main()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@4b0b0854]" started-at="2023-07-08T16:16:34 IST" name="main" finished-at="2023-07-08T16:16:38 IST" duration-ms="4267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn Action is successfully perfomred]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@4b0b0854]" started-at="2023-07-08T16:16:38 IST" name="afterMethod" finished-at="2023-07-08T16:16:38 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- automationFramework.AutomationFramework.Framework_001 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing Demo Apps -->
+</testng-results>
