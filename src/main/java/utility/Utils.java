@@ -33,9 +33,11 @@ public class Utils {
 		sBrowserName = ExcelUtils.getCellData(iTestCaseRow, Constant.Col_Browser);
 
 		if(sBrowserName.equals("chrome")){
-			WebDriverManager.chromedriver().setup();
+			WebDriverManager.chromedriver().browserVersion("115.0.5790.102 ").setup();
+			//WebDriverManager.chromedriver().create();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
+			//options.addArguments("--remote-allow-origins=*");
 
 			 driver = new ChromeDriver(options);
 			//driver = new ChromeDriver();

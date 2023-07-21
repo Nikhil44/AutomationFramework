@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Testing Demo Apps">
+<suite name="Testing Demo Apps" verbose="1">
     <test name="Regression">
          <classes>
              <class name="automationFramework.AutomationFramework.Framework_001"/>

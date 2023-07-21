@@ -9,144 +9,144 @@ import utility.LogClass;
 import utility.Utils;
 
 public class Home_Page extends BaseClass {
-	 private static WebElement element = null;
+	private static WebElement element = null;
 
-     public Home_Page(WebDriver driver){
+	public Home_Page(WebDriver driver) {
 
-         	super(driver);
+		super(driver);
 
-     }    
+	}
 
-     public static WebElement btn_Login() throws Exception{
+	public static WebElement btn_Login() throws Exception {
 
-         try{ 
-        	 Thread.sleep(2000);
-        	 JavascriptExecutor js = (JavascriptExecutor)driver;
-        	 js.executeScript("window.scrollBy(0,250)");
-	        	 element = driver.findElement(By.xpath("//*[@id='login']"));
+		try {
+			Thread.sleep(2000);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("window.scrollBy(0,250)");
+			element = driver.findElement(By.xpath("//*[@id='login']"));
 
-	        	 LogClass.info("My Login button is found on the Home Page");
+			LogClass.info("My Login button is found on the Home Page");
 
-         }catch (Exception e){
+		} catch (Exception e) {
 
-        	 LogClass.error("My Login button is not found on the Home Page");
+			LogClass.error("My Login button is not found on the Home Page");
 
-        		throw(e);
+			throw (e);
 
-        		}
+		}
 
-        	return element;
+		return element;
 
-     }
+	}
 
-     public static WebElement lnk_LogOut() throws Exception{
+	public static WebElement lnk_LogOut() throws Exception {
 
-         try{
+		try {
 
-	        	element = driver.findElement(By.id("submit"));
+			element = driver.findElement(By.id("submit"));
 
-	        	LogClass.info("Log Out link is found on the Home Page");
+			LogClass.info("Log Out link is found on the Home Page");
 
-         }catch (Exception e){
+		} catch (Exception e) {
 
-        	 LogClass.error("Log Out link is not found on the Home Page");
+			LogClass.error("Log Out link is not found on the Home Page");
 
-        		throw(e);
+			throw (e);
 
-        		}
+		}
 
-        	return element;
+		return element;
 
-     }
+	}
 
-     public static class TopNavigation{
+	public static class TopNavigation {
 
-     	public static class Product_Type{
+		public static class Product_Type {
 
-     			static WebElement mainElement;
+			static WebElement mainElement;
 
-     		public static void Accessories() throws Exception{
+			public static void Accessories() throws Exception {
 
-     			try{
+				try {
 
-	        			mainElement = driver.findElement(By.linkText("Product Category"));
+					mainElement = driver.findElement(By.linkText("Product Category"));
 
-	        			LogClass.info("Product category link is found under Top Navigation");
+					LogClass.info("Product category link is found under Top Navigation");
 
-	        			Utils.mouseHoverAction(mainElement, "Accessories");
+					Utils.mouseHoverAction(mainElement, "Accessories");
 
-     			}catch (Exception e){
+				} catch (Exception e) {
 
-     				LogClass.error("Accessories link is not found under Product Category");
+					LogClass.error("Accessories link is not found under Product Category");
 
-     				throw(e);
+					throw (e);
 
-     			}
+				}
 
-                }
+			}
 
-     		public static void iMacs() throws Exception{
+			public static void iMacs() throws Exception {
 
-     			try{
+				try {
 
-	        			mainElement = driver.findElement(By.linkText("Product Category"));
+					mainElement = driver.findElement(By.linkText("Product Category"));
 
-	        			LogClass.info("Product category link is found under Top Navigation");
+					LogClass.info("Product category link is found under Top Navigation");
 
-	        			Utils.mouseHoverAction(mainElement, "iMacs");
+					Utils.mouseHoverAction(mainElement, "iMacs");
 
-     			}catch (Exception e){
+				} catch (Exception e) {
 
-     				LogClass.error("Accessories link is not found under Product Category");
+					LogClass.error("Accessories link is not found under Product Category");
 
-     				throw(e);
+					throw (e);
 
-     			}
+				}
 
-                }
+			}
 
-     		public static void iPads() throws Exception{
+			public static void iPads() throws Exception {
 
-     			try{
+				try {
 
-	        			mainElement = driver.findElement(By.linkText("Product Category"));
+					mainElement = driver.findElement(By.linkText("Product Category"));
 
-	        			LogClass.info("Product category link is found under Top Navigation");
+					LogClass.info("Product category link is found under Top Navigation");
 
-	        			Utils.mouseHoverAction(mainElement, "iPads");
+					Utils.mouseHoverAction(mainElement, "iPads");
 
-     			}catch (Exception e){
+				} catch (Exception e) {
 
-     				LogClass.error("Accessories link is not found under Product Category");
+					LogClass.error("Accessories link is not found under Product Category");
 
-     				throw(e);
+					throw (e);
 
-     			}
+				}
 
-                }
+			}
 
-     		public static void iPhones() throws Exception{
+			public static void iPhones() throws Exception {
 
-     			try{
+				try {
 
-	        			mainElement = driver.findElement(By.linkText("Product Category"));
+					mainElement = driver.findElement(By.linkText("Product Category"));
 
-	        			LogClass.info("Product category link is found under Top Navigation");
+					LogClass.info("Product category link is found under Top Navigation");
 
-	        			Utils.mouseHoverAction(mainElement, "iPhones");
+					Utils.mouseHoverAction(mainElement, "iPhones");
 
-     			}catch (Exception e){
+				} catch (Exception e) {
 
-     				LogClass.error("Accessories link is not found under Product Category");
+					LogClass.error("Accessories link is not found under Product Category");
 
-     				throw(e);
+					throw (e);
 
-     			}
+				}
 
-                }
+			}
 
-     	}
+		}
 
-     }
+	}
 
 }

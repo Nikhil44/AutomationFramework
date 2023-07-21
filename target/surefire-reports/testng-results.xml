@@ -5,23 +5,23 @@
       <![CDATA[SignIn Action is successfully perfomred]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-08T16:16:18 IST" name="Testing Demo Apps" finished-at="2023-07-08T16:16:38 IST" duration-ms="19827">
+  <suite started-at="2023-07-21T13:11:40 IST" name="Testing Demo Apps" finished-at="2023-07-21T13:12:11 IST" duration-ms="30697">
     <groups>
     </groups>
-    <test started-at="2023-07-08T16:16:18 IST" name="Regression" finished-at="2023-07-08T16:16:38 IST" duration-ms="19827">
+    <test started-at="2023-07-21T13:11:40 IST" name="Regression" finished-at="2023-07-21T13:12:11 IST" duration-ms="30697">
       <class name="automationFramework.AutomationFramework.Framework_001">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@4b0b0854]" started-at="2023-07-08T16:16:18 IST" name="beforeMethod" finished-at="2023-07-08T16:16:34 IST" duration-ms="15259" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@13fd2ccd]" started-at="2023-07-21T13:11:40 IST" name="beforeMethod" finished-at="2023-07-21T13:12:06 IST" duration-ms="26115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="main()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@4b0b0854]" started-at="2023-07-08T16:16:34 IST" name="main" finished-at="2023-07-08T16:16:38 IST" duration-ms="4267" status="PASS">
+        <test-method signature="main()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@13fd2ccd]" started-at="2023-07-21T13:12:06 IST" name="main" finished-at="2023-07-21T13:12:11 IST" duration-ms="4326" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SignIn Action is successfully perfomred]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@4b0b0854]" started-at="2023-07-08T16:16:38 IST" name="afterMethod" finished-at="2023-07-08T16:16:38 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:automationFramework.AutomationFramework.Framework_001@13fd2ccd]" started-at="2023-07-21T13:12:11 IST" name="afterMethod" finished-at="2023-07-21T13:12:11 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utility.LogClass;
 
-public class CheckOut_Page extends BaseClass{
+public class CheckOut_Page extends BaseClass {
 
 	private static WebElement element;
 
@@ -13,76 +13,78 @@ public class CheckOut_Page extends BaseClass{
 
 	public static String sProductPrice;
 
- public CheckOut_Page(WebDriver driver){
+	public CheckOut_Page(WebDriver driver) {
 
-	super(driver);
+		super(driver);
 
 	}
 
- public static WebElement txt_ProductPrice(){
+	public static WebElement txt_ProductPrice() {
 
-	 element = null;
+		element = null;
 
-   	try{
+		try {
 
-   		element= driver.findElement(By.xpath(".//*[@id='checkout_page_container']/div[1]/table/tbody/tr[2]/td[4]"));
+			element = driver
+					.findElement(By.xpath(".//*[@id='checkout_page_container']/div[1]/table/tbody/tr[2]/td[4]"));
 
-   		LogClass.info("Product Price for purchased product is found on the Check Out Page");
+			LogClass.info("Product Price for purchased product is found on the Check Out Page");
 
-   	}catch (Exception e){
+		} catch (Exception e) {
 
-   		LogClass.error("Price for purchased product on Check Out page is not found");
+			LogClass.error("Price for purchased product on Check Out page is not found");
 
-   		throw(e);
+			throw (e);
 
-   		}
+		}
 
-   	return element;
+		return element;
 
-    }
+	}
 
- public static WebElement txt_ProductName(){
+	public static WebElement txt_ProductName() {
 
-	 element = null;
+		element = null;
 
-   	try{
+		try {
 
-   		element= driver.findElement(By.xpath(".//*[@id='checkout_page_container']/div[1]/table/tbody/tr[2]/td[2]/a"));
+			element = driver
+					.findElement(By.xpath(".//*[@id='checkout_page_container']/div[1]/table/tbody/tr[2]/td[2]/a"));
 
-   		LogClass.info("Product Name for purchased product is found on the Check Out Page");
+			LogClass.info("Product Name for purchased product is found on the Check Out Page");
 
-   	}catch (Exception e){
+		} catch (Exception e) {
 
-   		LogClass.error("Price for purchased product on Check Out page is not found");
+			LogClass.error("Price for purchased product on Check Out page is not found");
 
-   		throw(e);
+			throw (e);
 
-   		}
+		}
 
-   	return element;
+		return element;
 
-    }
+	}
 
- public static WebElement btn_Continue(){
+	public static WebElement btn_Continue() {
 
-	 element = null;
+		element = null;
 
-   	try{
+		try {
 
-   		element= driver.findElement(By.xpath(".//*[@id='checkout_page_container']/div[1]/a/span"));
+			element = driver.findElement(By.xpath(".//*[@id='checkout_page_container']/div[1]/a/span"));
 
-   		LogClass.info("Continue button is found on the Check Out Page");
+			LogClass.info("Continue button is found on the Check Out Page");
 
-   	}catch (Exception e){
+		} catch (Exception e) {
 
-   		LogClass.error("Continue button on Check Out page is not found");
+			LogClass.error("Continue button on Check Out page is not found");
 
-   		throw(e);
+			throw (e);
 
-   		}
+		}
 
-   	return element;
+		return element;
 
-    }
+	}
 
 }

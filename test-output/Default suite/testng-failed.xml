@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationFramework.AutomationFramework.Framework_001">
+      <class name="rest.api.testing.ApiTesting">
         <methods>
-          <include name="main"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="AuthenticationBasic"/>
         </methods>
-      </class> <!-- automationFramework.AutomationFramework.Framework_001 -->
+      </class> <!-- rest.api.testing.ApiTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

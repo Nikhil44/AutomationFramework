@@ -1,2 +1,7 @@
-automationFramework\AutomationFramework\AppTest.class
+stepDefinitions\CucumberHooks.class
 automationFramework\AutomationFramework\Framework_001.class
+automationFramework\AutomationFramework\AppTest.class
+stepDefinitions\CucumberRunner.class
+stepDefinitions\Login.class
+stepDefinitions\ReRunFailedTestCasesRunner.class
+automationFramework\AutomationFramework\DataProviderTest.class
